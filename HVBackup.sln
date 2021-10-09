@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HVBackup", "HyperVBackup\HVBackup.csproj", "{096F7CB1-EC67-4388-A7A4-1747EE09DB29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HVBackupApp", "HyperVBackupApp\HVBackupApp.csproj", "{15A16478-D2E8-431C-99BA-EAABE878B450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterSharedVolume", "CSV\ClusterSharedVolume.csproj", "{EE788BD6-27A5-4282-A858-75A65BBDA8E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{2119BC69-DC08-4B14-A6EF-4BCECCD60206}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\AlphaFS.XML = Lib\AlphaFS.XML
+		Lib\AlphaFS.dll = Lib\AlphaFS.dll
+		Lib\AlphaFS.pdb = Lib\AlphaFS.pdb
+		Lib\AlphaVSS.60.x64.dll = Lib\AlphaVSS.60.x64.dll
+		Lib\AlphaVSS.60.x86.dll = Lib\AlphaVSS.60.x86.dll
+		Lib\AlphaVSS.Common.XML = Lib\AlphaVSS.Common.XML
+		Lib\AlphaVSS.Common.dll = Lib\AlphaVSS.Common.dll
+		Lib\CommandLine.XML = Lib\CommandLine.XML
+		Lib\CommandLine.dll = Lib\CommandLine.dll
+		Lib\Ionic.Zip.dll = Lib\Ionic.Zip.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccLocalPath0 = .
+		SccLocalPath1 = CSV
+		SccLocalPath2 = HyperVBackup
+		SccLocalPath3 = HyperVBackupApp
+		SccNumberOfProjects = 4
+		SccProjectName1 = CSV
+		SccProjectName2 = HyperVBackup
+		SccProjectName3 = HyperVBackupApp
+		SccProjectUniqueName1 = CSV\\ClusterSharedVolume.csproj
+		SccProjectUniqueName2 = HyperVBackup\\HVBackup.csproj
+		SccProjectUniqueName3 = HyperVBackupApp\\HVBackupApp.csproj
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs09
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{096F7CB1-EC67-4388-A7A4-1747EE09DB29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096F7CB1-EC67-4388-A7A4-1747EE09DB29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096F7CB1-EC67-4388-A7A4-1747EE09DB29}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{096F7CB1-EC67-4388-A7A4-1747EE09DB29}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{096F7CB1-EC67-4388-A7A4-1747EE09DB29}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{096F7CB1-EC67-4388-A7A4-1747EE09DB29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096F7CB1-EC67-4388-A7A4-1747EE09DB29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096F7CB1-EC67-4388-A7A4-1747EE09DB29}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{096F7CB1-EC67-4388-A7A4-1747EE09DB29}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{096F7CB1-EC67-4388-A7A4-1747EE09DB29}.Release|x86.ActiveCfg = Release|Any CPU
+		{15A16478-D2E8-431C-99BA-EAABE878B450}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{15A16478-D2E8-431C-99BA-EAABE878B450}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{15A16478-D2E8-431C-99BA-EAABE878B450}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{15A16478-D2E8-431C-99BA-EAABE878B450}.Debug|x86.ActiveCfg = Debug|x86
+		{15A16478-D2E8-431C-99BA-EAABE878B450}.Debug|x86.Build.0 = Debug|x86
+		{15A16478-D2E8-431C-99BA-EAABE878B450}.Release|Any CPU.ActiveCfg = Release|x86
+		{15A16478-D2E8-431C-99BA-EAABE878B450}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{15A16478-D2E8-431C-99BA-EAABE878B450}.Release|Mixed Platforms.Build.0 = Release|x86
+		{15A16478-D2E8-431C-99BA-EAABE878B450}.Release|x86.ActiveCfg = Release|x86
+		{15A16478-D2E8-431C-99BA-EAABE878B450}.Release|x86.Build.0 = Release|x86
+		{EE788BD6-27A5-4282-A858-75A65BBDA8E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE788BD6-27A5-4282-A858-75A65BBDA8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE788BD6-27A5-4282-A858-75A65BBDA8E4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EE788BD6-27A5-4282-A858-75A65BBDA8E4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EE788BD6-27A5-4282-A858-75A65BBDA8E4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EE788BD6-27A5-4282-A858-75A65BBDA8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE788BD6-27A5-4282-A858-75A65BBDA8E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE788BD6-27A5-4282-A858-75A65BBDA8E4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EE788BD6-27A5-4282-A858-75A65BBDA8E4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EE788BD6-27A5-4282-A858-75A65BBDA8E4}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
